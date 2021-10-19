@@ -11,13 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Packages
 
-```{r setup}
+```{r }
 library(tidyverse)
 library(gapminder)
 data(gapminder_unfiltered)
 ```
 
-## Analysis
+## get the data and group it
 
 ```{r}
 gapminder_unfiltered %>% 
